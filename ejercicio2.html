@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio Formulario HTML</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+h1 {
+    text-align: center; 
+}
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+ <img src='https://www.utpl.edu.ec/sites/default/files/archivos/marca%20UTPL%202018-01.png' alt='upper Image' class='top-image'>
+
+ <h1>FORMULARIO DE REGISTRO - CONFERENCIA</h1>
+ <form action="https://www.utpl.edu.ec/" method="GET">
+    <label for="nombres">Inserte sus nombres y apellidos completos:</label>
+    <input type="text" id="nombres" name="nombres" required>
+
+    <label for="email">Inserte su correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="web">Inserte su web personal:</label>
+    <input type="url" id="web" name="web" placeholder="URL de tu página web personal">
+
+    <label for="fechaRegistro">Fecha de Registro:</label>
+    <input type="date" id="fechaRegistro" name="fechaRegistro">
+
+    <label for="hora">Hora:</label>
+    <input type="time" id="hora" name="hora">
+
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="edad" min="-18" max="65">
+
+    <label for="contacto">Número de contacto:</label>
+    <input type="tel" id="contacto" name="contacto" placeholder="Número de teléfono">
+
+    <label for="color">Color favorito:</label>
+<select id="color" name="color">
+    <option value="#FF0000">Rojo</option>
+    <option value="#00FF00">Verde</option>
+    <option value="#0000FF">Azul</option>
+    <option value="#FFFF00">Amarillo</option>
+    <option value="#FF00FF">Magenta</option>
+    <option value="#00FFFF">Cian</option>
+    <option value="#FFA500">Naranja</option>
+    <option value="#800080">Morado</option>
+    <option value="#008000">Verde oscuro</option>
+    <option value="#000080">Azul marino</option>
+    <option value="#A52A2A">Marrón</option>
+    <option value="#808080">Gris</option>
+    <option value="#FFFFFF">Blanco</option>
+    <option value="#000000">Negro</option>
+    <option value="#FFD700">Oro</option>
+    <option value="#00CED1">Turquesa oscuro</option>
+    <option value="#FF6347">Tomate</option>
+    <option value="#4682B4">Azul acero</option>
+    <option value="#8B4513">Café silla de montar</option>
+    <option value="#4B0082">Índigo</option>
+</select>
+
+<a href="https://www.utpl.edu.ec/" target="_blank">
+    <button type="submit">Enviar</button>
+  </a>
+  </form>
+
+</body>
+<footer>
+    <div class="exercises">
+        <p><strong>EJERCICIOS</strong></p>
+        <div class="navigation-link">
+            <a href="index.html">Index</a>
+        </div>
+
+        <div class="navigation-link">
+            <a href="ejercicio1.html">ejercicio 1</a>
+        </div>
+        <div class="navigation-link">
+            <a href="ejercicio3.html">ejercicio 3</a>
+        </div>
+        <div class="navigation-link">
+            <a href="ejercicio4.html">ejercicio 4</a>
+        </div>
+    </div>   
+</footer>
+  <img src='https://www.utpl.edu.ec/sites/default/files/archivos/marca%20UTPL%202018-01.png' alt='Lower Image' class='bottom-image'>
+
+</html>

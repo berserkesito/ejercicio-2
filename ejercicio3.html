@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería de Imágenes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly; /* Changed to space-evenly */
+    }
+
+    figure {
+      text-align: center;
+      margin: 10px;
+      flex: 1 1 300px; /* Added to set a flexible width for each figure */
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+
+    figcaption {
+      margin-top: 5px;
+    }
+
+    footer {
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Galería de Imágenes</h1>
+
+  <div class="gallery">
+    <figure>
+      <img src="https://www.utpl.edu.ec/sites/default/files/archivos/marca%20UTPL%202018-02.png" alt="Escudo_BN">
+      <figcaption>Universidad Técnica Particular de Loja</figcaption>
+    </figure>
+
+    <figure>
+      <img src="https://www.utpl.edu.ec/sites/default/files/archivos/marca%20UTPL%202018-03.png" alt="Escudo_Normal">
+      <figcaption>Segundo Logo</figcaption>
+    </figure>
+
+    <figure>
+      <img src="https://www.utpl.edu.ec/sites/default/files/archivos/marca%20UTPL%202018-01.png" alt="Escudo">
+      <figcaption>Tercer Logo</figcaption>
+    </figure>
+
+    <figure>
+      <img src="https://www.utpl.edu.ec/carreras/sites/default/files/web-tecnologias-campo.png"
+        alt="Carrera_Tecnologias_Informacion">
+      <figcaption>Carrera de Tecnologías de la Información</figcaption>
+    </figure>
+    
+  </div>
+
+  <footer>
+    <div class="exercises">
+      <p><strong>EJERCICIOS</strong></p>
+      <div class="navigation-link">
+        <a href="index.html">Index</a>
+      </div>
+
+      <div class="navigation-link">
+        <a href="ejercicio1.html">ejercicio 1</a>
+      </div>
+      <div class="navigation-link">
+        <a href="ejercicio2.html">ejercicio 2</a>
+      </div>
+      <div class="navigation-link">
+        <a href="ejercicio4.html">ejercicio 4</a>
+    </div>
+    </div>
+  </footer>
+</body>
+
+</html>
+
